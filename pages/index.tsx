@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import clientPromise from '../lib/mongodb'
 import type { InferGetServerSidePropsType, GetServerSideProps } from 'next'
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 type ConnectionStatus = {
   isConnected: boolean
@@ -43,7 +44,7 @@ export default function Home({
 
       <main>
         <h1 className="title">
-          Welcome to <a href="https://nextjs.org">Next.js with MongoDB!</a>
+          Testing Onaiza Ali :) to <a href="https://nextjs.org">Next.js with MongoDB !</a>
         </h1>
 
         {isConnected ? (
@@ -255,3 +256,5 @@ export default function Home({
     </div>
   )
 }
+
+
