@@ -44,7 +44,9 @@ export default function Home({
 
       <main>
         <h1 className="title">
-          Testing Onaiza Ali :) to <a href="https://nextjs.org">Next.js with MongoDB !</a>
+          Testing Onaiza Ali :) to <a href="https://nextjs.org">Next.js with MongoDB !
+          <SpeedInsights />
+          </a>
         </h1>
 
         {isConnected ? (
